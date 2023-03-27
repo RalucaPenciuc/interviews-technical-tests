@@ -1,0 +1,47 @@
+@import "./globals.scss";
+
+.not-found-title {
+  color: $text-color;
+  font-size: $page-title-font-size;
+  font-family: $text-font-family;
+}
+
+.game-lobby-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game-lobby-title {
+  color: $text-color;
+  font-family: $text-font-family;
+  font-size: $page-title-font-size;
+}
+
+.game-lobby-players {
+  display: flex;
+  flex-direction: column;
+}
+
+.player {
+  color: $text-color;
+}
+
+.game-lobby-actions {
+  width: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+// .start-game-enabled {
+
+// }
+
+.start-game-disabled {
+  pointer-events: none;
+  text-decoration: none;
+  color: grey;
+}

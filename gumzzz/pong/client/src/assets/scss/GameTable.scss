@@ -1,0 +1,18 @@
+@import "./globals.scss";
+
+.not-found-title {
+  color: $text-color;
+  font-size: $page-title-font-size;
+  font-family: $text-font-family;
+}
+
+.game-table-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  border: 1px solid white;
+}

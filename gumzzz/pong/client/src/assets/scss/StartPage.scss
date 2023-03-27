@@ -1,0 +1,24 @@
+@import "./globals.scss";
+
+.start-page-container {
+  height: 100%;
+}
+
+.game-title {
+  color: $text-color;
+  font-family: $text-font-family;
+  font-size: 100px;
+  text-align: center;
+}
+
+.play-button-view {
+  color: $text-color;
+  text-align: center;
+}
+
+.play-button {
+  color: $text-color;
+  font-family: $text-font-family;
+  font-size: $page-title-font-size;
+  text-decoration: none;
+}

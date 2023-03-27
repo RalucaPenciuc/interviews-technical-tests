@@ -1,0 +1,16 @@
+@import "./globals.scss";
+
+.game-item-container {
+  height: 50px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.game-item-component {
+  color: $text-color;
+  font-family: $text-font-family;
+  margin: 0;
+}

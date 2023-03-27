@@ -1,0 +1,48 @@
+@import "./globals.scss";
+
+.not-found-title {
+  color: $text-color;
+  font-size: $page-title-font-size;
+  font-family: $text-font-family;
+}
+
+.games-page-container {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.page-title {
+  color: $text-color;
+  font-family: $text-font-family;
+  font-size: $page-title-font-size;
+  text-align: center;
+}
+
+.games-page-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.games-list {
+  min-height: 300px;
+  width: 70%;
+  border: 2px solid white;
+  margin-top: 20px;
+}
+
+.games-list-header {
+  height: 50px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.games-list-header-item {
+  color: $text-color;
+  font-family: $text-font-family;
+  margin: 0;
+}
